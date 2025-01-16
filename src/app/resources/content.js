@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-    firstName: 'Selene',
-    lastName:  'Yu',
+    firstName: 'Collins',
+    lastName:  'Tuti',
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role:      'Design Engineer',
+    role:      'Full Stack Software Engineer',
     avatar:    '/images/avatar.jpg',
-    location:  'Asia/Jakarta',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ['English', 'Bahasa']  // optional: Leave the array empty if you don't want to display languages
+    location:  'Africa/Nairobi',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    languages: ['English', 'Swahili']  // optional: Leave the array empty if you don't want to display languages
 }
 
 const newsletter = {
@@ -24,12 +24,12 @@ const social = [
     {
         name: 'GitHub',
         icon: 'github',
-        link: 'https://github.com/once-ui-system/nextjs-starter',
+        link: 'https://github.com/TUTI254',
     },
     {
         name: 'LinkedIn',
         icon: 'linkedin',
-        link: 'https://www.linkedin.com/company/once-ui/',
+        link: 'https://www.linkedin.com/in/collinsamwayituti/',
     },
     {
         name: 'X',
@@ -39,7 +39,7 @@ const social = [
     {
         name: 'Email',
         icon: 'email',
-        link: 'mailto:example@gmail.com',
+        link: 'mailto:collinsamwayi254@gmail.com',
     },
 ]
 
@@ -47,8 +47,8 @@ const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Design engineer and builder</>,
-    subline: <>I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
+    headline: <>Full Stack Software Engineer </>,
+    subline: <>I'm Tuti, an Innovative Full stack Software Engineer with over <InlineCode>3 Years of Experience</InlineCode>, in building scalable enterprise applications and streamlining business processes both Locally and Internationally .<br/> I specialize in creating high-performance applications that enhance workflows and user experiences.</>
 }
 
 const about = {
@@ -69,36 +69,70 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
+        description: <>Tuti is a Nairobi-based Softwre engineer with a passion for transforming complex challenges into simple, elegant solutions. His work  spans frontend and backend development, cloud technologies like AWS, and DevOps practices such as CI/CD, delivering optimized and sustainable solutions.</>
     },
     work: {
         display: true, // set to false to hide this section
         title: 'Work Experience',
         experiences: [
             {
-                company: 'FLY',
-                timeframe: '2022 - Present',
-                role: 'Senior Design Engineer',
+                company: 'SOUQ',
+                timeframe: 'Oct 2023 - Dec 2024',
+                role: 'Fullstack Software Engineer',
                 achievements: [
-                    <>Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.</>,
-                    <>Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster.</>
+                    <> Architected internal service automation platform using React and TypeScript, resulting in 47% improvement in team workflow efficiency</>,
+                    <> Engineered frontend performance optimizations through advanced caching and lazy loading techniques, resulting in 33% reduction in page load times.</>,
+                    <> Engineered AI-powered microservices architecture using Python, Flask, and TensorFlow, incorporating predictive analytics and machine learning models for dynamic resource allocation, resulting in 55% improvement in system scalability and 40% enhanced request handling through intelligent load balancing.</>
                 ],
                 images: [ // optional: leave the array empty if you don't want to display images
-                    {
-                        src: '/images/projects/project-01/cover-01.jpg',
-                        alt: 'Once UI Project',
-                        width: 16,
-                        height: 9
-                    }
+                    // {
+                    //     src: '/images/projects/project-01/cover-01.jpg',
+                    //     alt: 'Nomad Lab',
+                    //     width: 16,
+                    //     height: 9
+                    // }
                 ]
             },
             {
-                company: 'Creativ3',
-                timeframe: '2018 - 2022',
-                role: 'Lead Designer',
+                company: 'TapInAfrica',
+                timeframe: 'Jun 2023 - Sep 2023',
+                role: 'Fullstack Software Engineer',
                 achievements: [
-                    <>Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.</>,
-                    <>Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue.</>
+                    <>Developed reusable component library using React and TypeScript, resulting in 37% reduction in development time across 5 internal applications.</>,
+                    <>Orchestrated data processing pipeline using Python and Django, resulting in successful handling of 100,000+ daily transactions.</>,
+                    <>Optimized API performance through implementation of Redis caching, resulting in 21% improvement in data retrieval speed.</>
+                ],
+                images: [ ]
+            },
+            {
+                company: 'Vell Magazine',
+                timeframe: 'Mar 2023 - Aug 2023',
+                role: 'Frontend Software Engineer',
+                achievements: [
+                    <>Spearheaded state management optimization using Redux and Context API, resulting in 40% improvement in application stability.</>,
+                    <>Created modular component architecture using Material UI and React, resulting in 35% reduction in codebase complexity.</>,
+                ],
+                images: [ ]
+            },
+            {
+                company: 'Patazone',
+                timeframe: 'May 2021 - Jun 2023',
+                role: 'Fullstack Software Engineer',
+                achievements: [
+                    <>Led development of e-commerce platform modernization using Laravel and Vue.js, resulting in 50% reduction in page load times and 31% increase in customer conversion rates.</>,
+                    <> Architected distributed caching system using Redis and Memcached, resulting in handling 3x more concurrent users while maintaining sub-second response times.</>,
+                    <> Implemented automated CI/CD pipeline using Jenkins and Docker, resulting in reduction of deployment time from 3 hours to 15 minutes and 73% fewer production bugs.</>
+                ],
+                images: [ ]
+            },
+            {
+                company: 'Riziki Commodities',
+                timeframe: 'Aug 2022 - Dec 2022',
+                role: 'Frontend Software Engineer',
+                achievements: [
+                    <>Integrated Safaricom's Daraja API using Node.js and Express, resulting in 60% increase in successful payment transactions.</>,
+                    <> Established automated testing framework using Jest and React Testing Library, resulting in 85% code coverage across critical components.</>,
+                    <> Built real-time monitoring dashboard using WebSocket and React, resulting in 45% faster incident response time.</>
                 ],
                 images: [ ]
             }
@@ -109,17 +143,14 @@ const about = {
         title: 'Studies',
         institutions: [
             {
-                name: 'University of Jakarta',
-                description: <>Studied software engineering.</>,
+                name: 'St. Paul University',
+                description: <>Studied a Diploma in Business & IT.</>,
             },
-            {
-                name: 'Build the Future',
-                description: <>Studied online marketing and personal branding.</>,
-            }
+            
         ]
     },
     technical: {
-        display: true, // set to false to hide this section
+        display: false, // set to false to hide this section
         title: 'Technical skills',
         skills: [
             {
